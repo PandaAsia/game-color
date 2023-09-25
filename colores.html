@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="contenedor_titulo">
+                <h1 class="titulo_prueba" id="titulo_principal">Fase 1: Color y palabra coinciden</h1>
+            </div>
+            <div id="Panel_JUEGO">
+                <h1 id="Letra_Principal">Azul</h1>
+                <button id="Color_R" onclick="Changecolor_R()" class="Button_stylo">Rojo</button>
+                <button id="Color_Y" onclick="Changecolor_Y()" class="Button_stylo">Amarillo</button>
+                <button id="Color_B" onclick="Changecolor_B()" class="Button_stylo">Azul</button>
+                <button id="Color_G" onclick="Changecolor_G()" class="Button_stylo">Verde</button>
+            </div>
+            <div id="contenedor_button">
+                <button id="Iniciar_nivel" onclick="Empezar_juego()" class="Button_stylo">Empezar</button>
+            </div>
+        </div>
+        <div id="panel_respuesta">
+            <div class="contenedor_resp">
+                <strong>Resultado Fase 1</strong>
+                <br>
+                <br> 
+                Tiempo: <b id="time_timer01">00</b>
+                <br>
+                Respuesta correcta: <b id="rest1">xx</b><b>/30</b>
+            </div>
+            <div  class="contenedor_resp">
+                <strong>Resultado Fase 2</strong>
+                <br>
+                <br>
+                Tiempo: <b id="time_timer02">00</b>
+                <br>
+                Respuesta correcta: <b id="rest2">xx</b><b>/30</b>
+            </div>
+            <div  class="contenedor_resp">
+                <strong>Resultado Fase 3</strong>
+                <br>
+                <br>
+                Tiempo: <b id="time_timer03">00</b>
+                <br>
+                Respuesta correcta: <b id="rest3">xx</b><b>/30</b>
+            </div>
+        </div>
+    <script src="logica.js"></script>
+    </body>
+</html>

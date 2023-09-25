@@ -1,0 +1,75 @@
+body{
+    background-color: #FFFF7B;
+}
+
+#contenedor{
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#Panel_JUEGO{
+    display: none;
+}
+
+#contenedor_button{
+    display: grid;
+    grid-column: auto;
+}
+
+.Button_stylo{
+    background-color: #8000FF;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Button_stylo:hover{
+    background-color: #00A9A6;
+}
+
+#Iniciar_nivel{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.titulo_prueba{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Letra_Principal{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: grid;
+    font-size: 35px;
+}
+
+#panel_respuesta{
+    display: none;
+    grid-template-columns: auto auto auto;
+    column-gap: 35px;
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contenedor_resp{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor_resp strong{
+    justify-content: center;
+}
